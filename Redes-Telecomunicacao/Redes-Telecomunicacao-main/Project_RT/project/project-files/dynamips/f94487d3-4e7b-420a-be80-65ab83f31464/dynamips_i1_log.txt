@@ -1,0 +1,70 @@
+May 31 20:35:03.724 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 31 20:35:03.725 HYPERVISOR: Started on IP = localhost, TCP port = 53273.
+May 31 20:35:03.957 HYPERVISOR: exec_cmd: hypervisor version 
+May 31 20:35:03.957 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ASUS\Desktop\Project_RT\project\project-files\dynamips 
+May 31 20:35:03.961 GENERAL: working_dir=C:\Users\ASUS\Desktop\Project_RT\project\project-files\dynamips
+May 31 20:35:03.961 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ASUS\Desktop\Project_RT\project\project-files\dynamips\f94487d3-4e7b-420a-be80-65ab83f31464 
+May 31 20:35:03.961 GENERAL: working_dir=C:\Users\ASUS\Desktop\Project_RT\project\project-files\dynamips\f94487d3-4e7b-420a-be80-65ab83f31464
+May 31 20:35:03.961 HYPERVISOR: exec_cmd: vm create BGI-ESW 1 c3725 
+May 31 20:35:03.962 VM: VM BGI-ESW created.
+May 31 20:35:03.963 HYPERVISOR: exec_cmd: vm set_con_tcp_port BGI-ESW 5001 
+May 31 20:35:03.963 HYPERVISOR: exec_cmd: c3725 get_mac_addr BGI-ESW 
+May 31 20:35:03.963 HYPERVISOR: exec_cmd: vm set_disk0 BGI-ESW 1 
+May 31 20:35:03.963 HYPERVISOR: exec_cmd: vm set_exec_area BGI-ESW 64 
+May 31 20:35:03.963 HYPERVISOR: exec_cmd: vm get_status BGI-ESW 
+May 31 20:35:03.964 HYPERVISOR: exec_cmd: vm set_idle_pc BGI-ESW 0x60a68e70 
+May 31 20:35:03.964 HYPERVISOR: exec_cmd: vm set_ios BGI-ESW C:/Users/ASUS/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+May 31 20:35:03.965 HYPERVISOR: exec_cmd: c3725 set_mac_addr BGI-ESW c201.36ec.0000 
+May 31 20:35:03.965 HYPERVISOR: exec_cmd: vm set_nvram BGI-ESW 256 
+May 31 20:35:03.965 HYPERVISOR: exec_cmd: vm get_status BGI-ESW 
+May 31 20:35:03.965 HYPERVISOR: exec_cmd: vm slot_add_binding BGI-ESW 1 0 NM-16ESW 
+May 31 20:35:06.019 HYPERVISOR: exec_cmd: nio create_udp udp-08fafffd-4ae7-4ebc-8313-22b3edcf0f9f 10006 127.0.0.1 10007 
+May 31 20:35:06.271 HYPERVISOR: exec_cmd: vm slot_add_nio_binding BGI-ESW 1 15 udp-08fafffd-4ae7-4ebc-8313-22b3edcf0f9f 
+May 31 20:35:06.272 HYPERVISOR: exec_cmd: vm get_status BGI-ESW 
+May 31 20:35:06.320 HYPERVISOR: exec_cmd: nio create_udp udp-982067a2-3bc8-4c51-b292-44c4ca824271 10010 127.0.0.1 10011 
+May 31 20:35:06.322 HYPERVISOR: exec_cmd: vm slot_add_nio_binding BGI-ESW 1 14 udp-982067a2-3bc8-4c51-b292-44c4ca824271 
+May 31 20:35:06.322 HYPERVISOR: exec_cmd: vm get_status BGI-ESW 
+May 31 20:35:06.365 HYPERVISOR: exec_cmd: nio create_udp udp-40d9f04e-546b-4e73-b929-b34b78b9baa4 10014 127.0.0.1 10015 
+May 31 20:35:06.367 HYPERVISOR: exec_cmd: vm slot_add_nio_binding BGI-ESW 1 13 udp-40d9f04e-546b-4e73-b929-b34b78b9baa4 
+May 31 20:35:06.367 HYPERVISOR: exec_cmd: vm get_status BGI-ESW 
+May 31 20:35:06.419 HYPERVISOR: exec_cmd: nio create_udp udp-06b76966-ee35-4469-bf60-5a185906a8fc 10018 127.0.0.1 10019 
+May 31 20:35:06.420 HYPERVISOR: exec_cmd: vm slot_add_nio_binding BGI-ESW 1 12 udp-06b76966-ee35-4469-bf60-5a185906a8fc 
+May 31 20:35:06.421 HYPERVISOR: exec_cmd: vm get_status BGI-ESW 
+May 31 20:35:08.234 HYPERVISOR: exec_cmd: nio create_udp udp-eff4c4d4-0d73-4185-a376-9a106146d9dd 10068 127.0.0.1 10069 
+May 31 20:35:08.236 HYPERVISOR: exec_cmd: vm slot_add_nio_binding BGI-ESW 0 0 udp-eff4c4d4-0d73-4185-a376-9a106146d9dd 
+May 31 20:35:08.236 HYPERVISOR: exec_cmd: vm get_status BGI-ESW 
+May 31 20:35:08.275 HYPERVISOR: exec_cmd: nio create_udp udp-55a33994-d158-44b0-9a0c-b94aa0dce4d9 10074 127.0.0.1 10075 
+May 31 20:35:08.277 HYPERVISOR: exec_cmd: vm slot_add_nio_binding BGI-ESW 0 1 udp-55a33994-d158-44b0-9a0c-b94aa0dce4d9 
+May 31 20:35:08.277 HYPERVISOR: exec_cmd: vm get_status BGI-ESW 
+May 31 20:35:27.448 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+May 31 20:35:27.449 VM: VM Ghost created.
+May 31 20:35:27.450 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/ASUS/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+May 31 20:35:27.451 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+May 31 20:35:27.452 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost C:\Users\ASUS\Desktop\Project_RT\project\project-files\dynamips\c3725-advipservicesk9-mz.124-21.image-128.ghost 
+May 31 20:35:27.453 HYPERVISOR: exec_cmd: vm get_status Ghost 
+May 31 20:35:27.454 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+May 31 20:35:27.481 HYPERVISOR: exec_cmd: vm start Ghost 
+May 31 20:35:27.824 HYPERVISOR: exec_cmd: vm get_status Ghost 
+May 31 20:35:27.825 HYPERVISOR: exec_cmd: vm stop Ghost 
+May 31 20:35:27.944 VM: VM Ghost shutdown.
+May 31 20:35:27.945 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+May 31 20:35:27.947 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+May 31 20:35:27.947 VM: VM Ghost destroyed.
+May 31 20:35:27.956 HYPERVISOR: exec_cmd: vm set_ghost_status BGI-ESW 2 
+May 31 20:35:27.957 HYPERVISOR: exec_cmd: vm set_ghost_file BGI-ESW C:\Users\ASUS\Desktop\Project_RT\project\project-files\dynamips\c3725-advipservicesk9-mz.124-21.image-128.ghost 
+May 31 20:35:27.957 HYPERVISOR: exec_cmd: vm get_status BGI-ESW 
+May 31 20:35:27.964 HYPERVISOR: exec_cmd: vm set_config BGI-ESW configs\i1_startup-config.cfg 
+May 31 20:35:27.964 HYPERVISOR: exec_cmd: vm start BGI-ESW 
+May 31 20:42:58.441 HYPERVISOR: exec_cmd: vm extract_config BGI-ESW 
+May 31 20:42:58.447 HYPERVISOR: exec_cmd: vm extract_config BGI-ESW 
+May 31 20:46:28.489 HYPERVISOR: exec_cmd: vm extract_config BGI-ESW 
+May 31 20:46:28.495 HYPERVISOR: exec_cmd: vm extract_config BGI-ESW 
+May 31 20:47:58.501 HYPERVISOR: exec_cmd: vm extract_config BGI-ESW 
+May 31 20:47:58.507 HYPERVISOR: exec_cmd: vm extract_config BGI-ESW 
+May 31 21:18:29.069 HYPERVISOR: exec_cmd: vm extract_config BGI-ESW 
+May 31 21:18:29.076 HYPERVISOR: exec_cmd: vm extract_config BGI-ESW 
+May 31 21:25:59.164 HYPERVISOR: exec_cmd: vm extract_config BGI-ESW 
+May 31 21:25:59.171 HYPERVISOR: exec_cmd: vm extract_config BGI-ESW 
+May 31 21:56:59.144 HYPERVISOR: exec_cmd: vm set_ghost_status BGI-ESW 2 
+May 31 21:56:59.146 HYPERVISOR: exec_cmd: vm set_ghost_file BGI-ESW C:\Users\ASUS\Desktop\Project_RT\project\project-files\dynamips\c3725-advipservicesk9-mz.124-21.image-128.ghost 
+May 31 21:56:59.147 HYPERVISOR: exec_cmd: vm get_status BGI-ESW 

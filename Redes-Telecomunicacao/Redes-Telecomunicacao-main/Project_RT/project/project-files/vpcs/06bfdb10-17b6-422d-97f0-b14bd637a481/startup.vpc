@@ -1,0 +1,2 @@
+set pcname Wire-Soldier
+ip 172.20.143.1 172.20.143.126 25

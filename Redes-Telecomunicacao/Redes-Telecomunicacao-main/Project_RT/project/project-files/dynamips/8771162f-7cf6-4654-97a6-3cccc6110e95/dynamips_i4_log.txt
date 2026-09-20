@@ -1,0 +1,19 @@
+Apr 20 18:38:23.212 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 20 18:38:23.213 HYPERVISOR: Started on IP = localhost, TCP port = 52150.
+Apr 20 18:38:23.717 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 20 18:38:23.719 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ASUS\Desktop\Project_RT\project\project-files\dynamips 
+Apr 20 18:38:23.719 GENERAL: working_dir=C:\Users\ASUS\Desktop\Project_RT\project\project-files\dynamips
+Apr 20 18:38:23.719 HYPERVISOR: exec_cmd: ethsw create DataCenter-IT 
+Apr 20 18:38:27.010 HYPERVISOR: exec_cmd: nio create_udp udp-a5d3d20e-938c-48bd-aad4-35e36c390fb3 10002 127.0.0.1 10003 
+Apr 20 18:38:27.011 HYPERVISOR: exec_cmd: ethsw add_nio DataCenter-IT udp-a5d3d20e-938c-48bd-aad4-35e36c390fb3 
+Apr 20 18:38:27.014 HYPERVISOR: exec_cmd: ethsw set_access_port DataCenter-IT udp-a5d3d20e-938c-48bd-aad4-35e36c390fb3 1 
+Apr 20 18:38:28.514 HYPERVISOR: exec_cmd: nio create_udp udp-90800089-c3cf-4f01-b6f0-2186578a7ae0 10051 127.0.0.1 10050 
+Apr 20 18:38:28.514 HYPERVISOR: exec_cmd: ethsw add_nio DataCenter-IT udp-90800089-c3cf-4f01-b6f0-2186578a7ae0 
+Apr 20 18:38:28.538 HYPERVISOR: exec_cmd: ethsw set_access_port DataCenter-IT udp-90800089-c3cf-4f01-b6f0-2186578a7ae0 1 
+Apr 20 18:38:29.184 HYPERVISOR: exec_cmd: nio create_udp udp-dddb5d48-8309-4245-88db-3eda69791bff 10070 127.0.0.1 10071 
+Apr 20 18:38:29.184 HYPERVISOR: exec_cmd: ethsw add_nio DataCenter-IT udp-dddb5d48-8309-4245-88db-3eda69791bff 
+Apr 20 18:38:29.194 HYPERVISOR: exec_cmd: ethsw set_access_port DataCenter-IT udp-dddb5d48-8309-4245-88db-3eda69791bff 1 
+Apr 20 18:52:02.214 HYPERVISOR: exec_cmd: ethsw delete DataCenter-IT 
+Apr 20 18:52:02.287 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 20 18:52:02.366 HYPERVISOR: Stopped.
+Apr 20 18:52:02.366 GENERAL: reset done.

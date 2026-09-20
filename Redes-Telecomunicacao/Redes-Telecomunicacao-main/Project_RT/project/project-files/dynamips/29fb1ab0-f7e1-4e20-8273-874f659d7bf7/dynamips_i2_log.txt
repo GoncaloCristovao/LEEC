@@ -1,0 +1,13 @@
+Apr 18 13:59:45.265 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 18 13:59:45.267 HYPERVISOR: Started on IP = localhost, TCP port = 49894.
+Apr 18 13:59:45.766 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 18 13:59:45.767 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ASUS\Desktop\Project_RT\project\project-files\dynamips 
+Apr 18 13:59:45.767 GENERAL: working_dir=C:\Users\ASUS\Desktop\Project_RT\project\project-files\dynamips
+Apr 18 13:59:45.767 HYPERVISOR: exec_cmd: ethsw create Offices 
+Apr 18 13:59:52.122 HYPERVISOR: exec_cmd: nio create_udp udp-6b95411a-255e-4c8b-8888-91e28246d12e 10000 127.0.0.1 10001 
+Apr 18 13:59:52.122 HYPERVISOR: exec_cmd: ethsw add_nio Offices udp-6b95411a-255e-4c8b-8888-91e28246d12e 
+Apr 18 13:59:52.137 HYPERVISOR: exec_cmd: ethsw set_access_port Offices udp-6b95411a-255e-4c8b-8888-91e28246d12e 1 
+Apr 18 13:59:52.439 HYPERVISOR: exec_cmd: ethsw delete Offices 
+Apr 18 13:59:52.451 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 18 13:59:52.848 HYPERVISOR: Stopped.
+Apr 18 13:59:52.848 GENERAL: reset done.
